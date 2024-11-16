@@ -1,0 +1,195 @@
+#body-login{
+    background-image: url(./Images/movie-background-collage_23-2149876005.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    font-family: cursive;
+
+}
+
+
+
+#form-card{
+     background-color: #0000008a;
+     box-shadow: 4px 4px 3px #9843c0;
+     text-shadow: 3px 3px 3px #db48cd;
+
+}
+
+
+#form-card .btn:hover{
+    border-color: #db48cd;
+    color: #db48cd;
+    box-shadow: 1px 1px 1px #db48cd;
+
+}
+
+
+
+
+
+
+
+
+
+
+#body-home{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+
+}
+
+
+nav{
+    width: 100%;
+    background-color: rgba(45, 15, 72, 0.507);
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+    color:  #a6f2ee;
+    text-shadow: 2px 2px 3px #a6f2ee;
+}
+
+.navbar-brand:hover{
+    color:  #db48cd;
+    text-shadow: 3px 3px 3px #db48cd;
+
+}
+.nav-link{
+    color:  #a6f2ee;
+    font-weight: 500;
+    font-size: 50px;
+    position: relative;
+   text-shadow: 1px 1px 1px #a6f2ee;
+
+}
+
+.nav-link:hover,.nav-link.active {
+    color:  #db48cd;
+    text-shadow: 1px 1px 1px #db48cd;
+
+}
+
+@media screen and (min-width:992px){
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #db48cd;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .nav-link:hover::before{
+        width: 100%;
+        visibility: visible;
+    }
+    
+}
+
+
+#btnsearch ,#btnlogin , #btnsignup ,.input-search{ 
+    border-color: #a6f2ee;
+    color: #a6f2ee;
+    box-shadow: 1px 1px 1px #a6f2ee;
+
+}
+
+#btnsearch:hover ,#btnlogin:hover , #btnsignup:hover{
+    border-color: #db48cd;
+    color: #db48cd;
+    box-shadow: 1px 1px 1px #db48cd;
+
+}
+
+.input-search::placeholder {
+    color: rgb(28, 25, 115);
+}
+
+.input-search{
+    box-shadow: 1px 1px 1px #a6f2ee;
+    transition: 2s;
+}
+
+.input-search:hover{
+    width: 400px;
+}
+
+
+
+
+
+#welcome ,#cinema ,#song ,#review{
+    width: 100%;
+}
+
+
+#welcome img{
+    width: 100%;
+    max-height:100vh ;
+}
+
+#category-cinema {
+    text-shadow: 3px 3px 3px #9843c0;
+}
+
+#category-song {
+    text-shadow: 3px 3px 3px #43c0ba;
+}
+
+#category-review {
+    text-shadow: 3px 3px 3px #db48cd;
+}
+
+
+#card-item {
+    box-shadow: 4px 4px 3px #9843c0;
+    color: #9843c0;
+}
+
+#cinema .btn:hover {
+    background-color: #9843c0;
+    color: #fff;
+}
+
+
+#cinema img{
+    width: 100%; 
+    height: 100px; 
+}
+
+#cinema .card{
+    /* max-width: 540px; */
+    height: 150px;
+}
+
+
+#card-song{
+    box-shadow: 4px 4px 3px #43c0ba;
+    color: #43c0ba;
+
+}
+
+#song .btn:hover{
+    background-color: #43c0ba;
+    color: #fff;
+
+}
+
+#song img{
+    width: 100%; 
+    max-width: 450px; 
+    height: 150px; 
+}
+
+#card-review{
+    box-shadow: 4px 4px 3px #db48cd;
+    color: #db48cd;
+}
